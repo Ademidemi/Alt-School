@@ -26,21 +26,57 @@ header nav img {
   height: 39px;
 }
 header nav .links {
-  word-spacing: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-header nav .links a {
+header nav .links ul {
+  display: flex;
+  list-style: none;
+  padding: 0px 20px;
+}
+header nav .links ul li {
   text-decoration: none;
+}
+header nav .links ul a {
+  text-decoration: none;
+  padding: 30px;
   color: black;
   font-size: 14px;
   font-weight: 700;
 }
+header nav .links ul a:hover {
+  color: #ffffff;
+  background-color: #1179bf;
+  padding: 15px;
+}
+
 header nav .links button {
   width: 91px;
   height: 40px;
   background: #f5f8fa;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 5px;
+  font-weight: bold;
 }
+
+.toggle-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .Bar {
+  height: 4px;
+  width: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
 /* Design for Section */
 section {
   width: 60%;
@@ -475,16 +511,26 @@ section .second-container {
 @media screen and (max-width: 768px) {
   /* Design for the Header */
   header {
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
 
   header nav img {
-    width: 100px;
+    width: 150px;
     height: 80px;
   }
-
+  header nav .links {
+    display: none;
+  }
+  header nav .links ul li {
+    width: 100%;
+  }
   header nav .links button {
-    width: 71px;
+    display: none;
+  }
+
+  .toggle-button {
+    display: flex;
+    margin-top: 10px;
   }
 
   /* Design for Section */

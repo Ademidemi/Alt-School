@@ -1,7 +1,46 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: "Kode Mono", serif;
+     text-align: center;
+     margin: 100px 50px;
+     background: linear-gradient(90deg, #6788b4, #feb47b);
+min-height: 100;
+}
+h1{
+    font-size: 52px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 100px 0px 0px;
+    margin-bottom: 20px;
+}
+.links{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
 a {
     display: block;
     padding: 10px;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 700;    
+    text-decoration: none;
+    color: black; line-height: 40px;
+    
+
+ 
 }
