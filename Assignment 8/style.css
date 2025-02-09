@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", serif;
+}
+.first-section {
+  background: linear-gradient(180deg, #dbdb54, #75afe9);
+
+  padding-bottom: 50px;
+}
+/* Design for the Header  */
+.first-section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 140px;
+}
+.first-section nav img {
+  width: 155;
+  height: 40;
+  padding: 8px;
+}
+
+.first-section nav .nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin: 40px;
+  font-size: 18px;
+}
+.first-section nav .nav-links .Features:after {
+  content: " \25BE";
+}
+.first-section nav .nav-links .my-url {
+  color: #0166fe;
+}
+
+.first-section nav .Log-in a {
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 16px;
+}
+.first-section nav .Log-in button {
+  width: 142;
+  height: 44;
+  gap: 10px;
+  border-radius: 100px;
+  padding: 12px 24px;
+  background: #0065fe;
+  border: none;
+  color: white;
+}
+/* Design for Front-Page */
+.first-section .front-page {
+  text-align: center;
+  width: 948;
+  padding: 162px 246px 0px;
+}
+.first-section .front-page h1 {
+  font-size: 46px;
+  line-height: 96px;
+}
+.first-section .front-page h1 span {
+  color: #005ae2;
+}
+.first-section .front-page p {
+  width: 781px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 20px;
+}
+.first-section .front-page button {
+  width: 142;
+  height: 44;
+  gap: 10px;
+  border-radius: 100px;
+  padding: 12px 24px;
+  background: #0065fe;
+  border: none;
+  color: white;
+  margin: 30px 40px;
+}
+.first-section .front-page a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0%;
+  color: #0065fe;
+  font-weight: 500;
+}
+.first-section .main-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-section .main-images img {
+  background-image: url("./Asset/Image/Vector\ 2.svg");
+  background-size: 339px 262px;
+  background-repeat: no-repeat;
+  padding: 20px 60px;
+}
+.last-nav-image {
+  width: 100%;
+  margin-top: 20px;
+}
+/* Design FOr Section Two */
+.Section-two {
+  display: flex;
+  align-items: center;
+  padding: 60px 140px;
+}
+
+.Section-two .Possibilities h2 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+.Section-two .Possibilities h2 span {
+  color: #005ae2;
+}
+.Section-two .headers-container {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  padding-left: 50px;
+}
+
+.Section-two .headers-container .headers-subhead {
+  width: 150px;
+}
+.Section-two .headers-container .headers-subhead h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.Section-two .headers-container .headers-subhead h3 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Design for Fearture Section */
+/* Features Section */
+.features {
+  display: flex;
+  padding: 60px 20px;
+  margin: 0px 100px;
+}
+.features .why-choose-scissors {
+  width: 40%;
+}
+.features .why-choose-scissors .Image-why {
+  display: flex;
+  gap: 20px;
+}
+
+.features .why-choose-scissors h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.features .why-choose-scissors h2 span {
+  color: #005ae2;
+}
+
+.features .why-choose-scissors .description {
+  max-width: 600px;
+  color: #666;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  padding: 0px 40px 0 20px;
+  
+}
+/* Design for Feature Grid  */
+.feature-grid {
+  display: grid;
+  width: 60%;
+  gap:3rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-grid .feature {
+  background: white;
+  line-height: 30px;
+}
+
+.feature-grid .feature img {
+width: 56px;
+height: 56px;  
+  margin-bottom: 20px;
+}
+
+.feature-grid .feature h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.feature-grid .feature p{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+/* Design for middle container */
+.middle-container{
+width: 560px;
+margin: auto;
+}
+.middle-container .sub-middle-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+padding-bottom: 10px;
+}
+.middle-container .sub-middle-container h2{  
+font-size: 32px;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.middle-container .sub-middle-container h2 span{
+  color: #005AE2;
+
+}
+.middle-container p{
+  text-align: center;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* Pricing Section*/
+
+.Pricing{
+  padding: 60px 10%;
+  color: #141414;
+}
+
+.price-card{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.professional{
+  background-color: #1E3448;
+  color: white;
+  padding:80px 40px;
+  border-radius: 12px;
+  position: relative;
+  top: -50px;
+  height: 550px;
+}
+.professional ul li span img{
+  color: white;
+}
+
+.basic{
+  background-color:none;
+  color: #141414;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #005AE2;
+  height: 455px;
+ 
+}
+.teams{
+  background-color:none;
+  color: #141414;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #005AE2;
+  height: 455px;
+}
+.price-card .basic .BPT,
+.price-card .professional .BPT,
+.price-card .teams .BPT{
+padding-bottom: 30px;
+}
+.price-card p{  
+  line-height: 32px; 
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+font-weight: 500;
+padding-bottom: 10px;
+
+
+}
+.price-card h2{
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 10px;
+}
+.price-card p{
+  font-size: 18px;
+  line-height: 24px;
+}
+.price-card ul{
+  list-style-type: none;
+  padding: 0;
+}
+.price-card li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+.price-card li span{
+  padding: 0; 
+}
+.price-button{
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.price-button button{
+  border-radius: 100px;
+  padding: 10px;
+}
+.price-button .custom-p{
+background-color: white;
+color: #0065FE;
+border-color: #0065FE;
+text-align: center;
+}
+.price-button .select-p{
+  background-color: #0065FE;
+  color: white;
+  border-color: #0065FE;
+  text-align: center;  
+}
