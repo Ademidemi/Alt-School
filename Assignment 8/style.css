@@ -242,12 +242,12 @@ text-align: center;
   color: #141414;
 }
 
-.price-card{
+.Pricing .price-card{
   display: flex;
   justify-content: center;
   padding: 40px 0;
 }
-.professional{
+.Pricing .professional{
   background-color: #1E3448;
   color: white;
   padding:80px 40px;
@@ -256,11 +256,8 @@ text-align: center;
   top: -50px;
   height: 550px;
 }
-.professional ul li span img{
-  color: white;
-}
 
-.basic{
+.Pricing .basic{
   background-color:none;
   color: #141414;
   padding: 40px;
@@ -269,7 +266,7 @@ text-align: center;
   height: 455px;
  
 }
-.teams{
+.Pricing .teams{
   background-color:none;
   color: #141414;
   padding: 40px;
@@ -282,7 +279,7 @@ text-align: center;
 .price-card .teams .BPT{
 padding-bottom: 30px;
 }
-.price-card p{  
+.Pricing .price-card p{  
   line-height: 32px; 
 font-size: 24px;
 line-height: 32px;
@@ -292,20 +289,17 @@ padding-bottom: 10px;
 
 
 }
-.price-card h2{
+.Pricing .price-card h2{
   font-size: 32px;
   line-height: 48px;
   padding-bottom: 10px;
 }
-.price-card p{
-  font-size: 18px;
-  line-height: 24px;
-}
-.price-card ul{
+
+.Pricing .price-card ul{
   list-style-type: none;
   padding: 0;
 }
-.price-card li{
+.Pricing .price-card li{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -313,9 +307,7 @@ padding-bottom: 10px;
   line-height: 24px;
   padding: 10px 0;
 }
-.price-card li span{
-  padding: 0; 
-}
+
 .price-button{
   align-items: center;
   font-size: 16px;
@@ -332,11 +324,17 @@ padding-bottom: 10px;
 background-color: white;
 color: #0065FE;
 border-color: #0065FE;
-text-align: center;
+border-radius: 100px;
+border-width: 1px;
+padding: 12px 24px;
+
 }
 .price-button .select-p{
   background-color: #0065FE;
   color: white;
   border-color: #0065FE;
-  text-align: center;  
-}
+  text-align: center; 
+  border-radius: 100px;
+  border: none;
+  padding: 12px 40px;
+ }
