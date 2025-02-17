@@ -11,26 +11,35 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Hatran&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   </head>
   <body>
     <header>
       <nav>
-        <img src="./asset/wppusher-logo copy.svg" alt="" />
-        <a href="" class="toggle-button">
-          <span class="Bar"></span>
-          <span class="Bar"></span>
-          <span class="Bar"></span>
-        </a>
-        
-        <div class="links">
-          <ul>
-           <li> <a href="">Download</a></li>
-         <li> <a href="">Learn more</a></li>
-         <li> <a href="">Pricing</a></li>
-        <li>  <a href="">Help</a></li>
-        </ul>
-
-          
+      <ul class="nav-links">
+        <li class="logo">
+          <a href="#"> <img src="./asset/wppusher-logo copy.svg" alt="logo" /></a>
+        </li>
+        <input type="checkbox" id="check" />
+        <span class="checkbtn">
+          <li> <a href="">Download</a></li>
+          <li> <a href="">Learn more</a></li>
+          <li> <a href="">Pricing</a></li>
+         <li>  <a href="">Help</a></li>
+          <label for="check" class="close-menu">
+            <i class="fas fa-times"></i>
+          </label>
+        </span>
+        <label for="check" class="open-menu">
+          <i class="fas fa-bars"></i>
+        </label>
+      </ul>             
           <button>Account</button>
         </div>
       </nav>
